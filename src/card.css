@@ -1,0 +1,58 @@
+.whole {
+    display: flex;
+    background-color: white;
+}
+.information {
+    display: flex;
+    width: 80%;
+    text-align: left;
+    margin-top: 25px;
+}
+.imag {
+    width: 20%;
+}
+.specification {
+    width: 65%;
+
+}
+.price {
+    width: 35%;
+}
+.tt {
+    font-size: 2rem;
+    
+}
+.pi {
+    font-size: 2.5rem;
+}
+ul li::before {
+    content: "\2022";
+    color: gray;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  ul {
+    list-style: none;
+  }
+  .bankoff {
+      font-size: 1.1rem;
+      color: green;
+
+  }
+  .dee{
+      color: gray;
+  }
+  .star {
+      color: white;
+      background-color: green;
+      border-radius: 5px;
+      padding: 0 4px;
+  }
+  .star::after {
+    content: "\2605";
+  }
+  .rat {
+      color: gray;
+  }

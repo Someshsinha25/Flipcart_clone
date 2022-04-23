@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.nav{
+   background-color: blue;
+}
+.side {
+background-color: red ;
+width: 20%;
+
+}
+.card {
+  background-color: yellow;
+  width: 80%;
+}
+.info p {
+  padding: 1px;
+}
+
+.main {
+  display: flex;
+}
